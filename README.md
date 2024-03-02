@@ -1,6 +1,6 @@
 # Python ve Makine Öğrenmesi ile Doktora Eğitimi 🚀🧠
 
-Hoş geldiniz! Bu repo, Python ve Makine Öğrenmesi üzerine doktora eğitimim sırasında öğrendiklerimi, geliştirdiğim projeleri ve ders materyallerimi paylaşmak için oluşturulmuştur.
+Hoş geldiniz. Bu repo, Python ve Makine Öğrenmesi üzerine doktora eğitimim sırasında öğrendiklerimi, geliştirdiğim projeleri ve ders materyallerimi paylaşmak için oluşturulmuştur.
 
 Hi 🖖 My name is Fatih Bildirici
 ================================
