@@ -11,27 +11,22 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Dosya yolunu belirtin
 file_path = r"C:\Users\Fatih Bildirici\OneDrive\Documents\Desktop\Git Depoları\PhdCoursesAI\PhDCoursesAI\MachineLearningwithPython\Presentation\pokemon.csv"
 
-# CSV dosyasını oku
 pokemon_df = pd.read_csv(file_path)
 
-# Hedef değişkeni ve özellikleri belirleme
 target = 'is_legendary'
 features = ['attack', 'defense', 'sp_attack', 'sp_defense', 'speed', 'hp', 'height_m', 'weight_kg']
 
 X = pokemon_df[features]
 y = pokemon_df[target]
 
-# Eksik değerleri kontrol etme
 print(X.isnull().sum())
 
-# Eksik değerleri doldurma
+# Eksik değerleri mean ile dolduralim
 imputer = SimpleImputer(strategy='mean')
 X_imputed = imputer.fit_transform(X)
 
-# Veriyi eğitime ve teste ayırma
 X_train, X_test, y_train, y_test = train_test_split(X_imputed, y, test_size=0.2, random_state=42)
 
 # Veriyi ölçeklendirme
@@ -46,7 +41,6 @@ models = {
     'Random Forest': RandomForestClassifier()
 }
 
-# Modelleri eğitme ve değerlendirme
 results = {}
 
 for model_name, model in models.items():
@@ -69,7 +63,6 @@ for model_name, model in models.items():
         'Classification Report': class_report
     }
 
-# Sonuçları yazdırma ve dışa aktarma
 output_file_path = r"C:\Users\Fatih Bildirici\OneDrive\Documents\Desktop\Git Depoları\PhdCoursesAI\PhDCoursesAI\MachineLearningwithPython\Presentation\model_results.txt"
 with open(output_file_path, 'w') as file:
     for model_name, metrics in results.items():
