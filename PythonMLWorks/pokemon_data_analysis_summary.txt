@@ -1,0 +1,69 @@
+Head of the data:
+                     abilities  against_bug  against_dark  against_dragon  against_electric  against_fairy  against_fight  against_fire  against_flying  against_ghost  against_grass  against_ground  against_ice  against_normal  against_poison  against_psychic  against_rock  against_steel  against_water  attack  base_egg_steps  base_happiness  base_total capture_rate   classfication  defense  experience_growth  height_m  hp     japanese_name        name  percentage_male  pokedex_number  sp_attack  sp_defense  speed  type1   type2  weight_kg  generation  is_legendary
+0  ['Overgrow', 'Chlorophyll']          1.0           1.0             1.0               0.5            0.5            0.5           2.0             2.0            1.0           0.25             1.0          2.0             1.0             1.0              2.0           1.0            1.0            0.5      49            5120              70         318           45    Seed Pokémon       49            1059860       0.7  45  Fushigidaneフシギダネ   Bulbasaur             88.1               1         65          65     45  grass  poison        6.9           1             0
+1  ['Overgrow', 'Chlorophyll']          1.0           1.0             1.0               0.5            0.5            0.5           2.0             2.0            1.0           0.25             1.0          2.0             1.0             1.0              2.0           1.0            1.0            0.5      62            5120              70         405           45    Seed Pokémon       63            1059860       1.0  60   Fushigisouフシギソウ     Ivysaur             88.1               2         80          80     60  grass  poison       13.0           1             0
+2  ['Overgrow', 'Chlorophyll']          1.0           1.0             1.0               0.5            0.5            0.5           2.0             2.0            1.0           0.25             1.0          2.0             1.0             1.0              2.0           1.0            1.0            0.5     100            5120              70         625           45    Seed Pokémon      123            1059860       2.0  80  Fushigibanaフシギバナ    Venusaur             88.1               3        122         120     80  grass  poison      100.0           1             0
+3     ['Blaze', 'Solar Power']          0.5           1.0             1.0               1.0            0.5            1.0           0.5             1.0            1.0           0.50             2.0          0.5             1.0             1.0              1.0           2.0            0.5            2.0      52            5120              70         309           45  Lizard Pokémon       43            1059860       0.6  39      Hitokageヒトカゲ  Charmander             88.1               4         60          50     65   fire     NaN        8.5           1             0
+4     ['Blaze', 'Solar Power']          0.5           1.0             1.0               1.0            0.5            1.0           0.5             1.0            1.0           0.50             2.0          0.5             1.0             1.0              1.0           2.0            0.5            2.0      64            5120              70         405           45   Flame Pokémon       58            1059860       1.1  58       Lizardoリザード  Charmeleon             88.1               5         80          65     80   fire     NaN       19.0           1             0
+
+Info about the data:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 801 entries, 0 to 800
+Data columns (total 41 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   abilities          801 non-null    object 
+ 1   against_bug        801 non-null    float64
+ 2   against_dark       801 non-null    float64
+ 3   against_dragon     801 non-null    float64
+ 4   against_electric   801 non-null    float64
+ 5   against_fairy      801 non-null    float64
+ 6   against_fight      801 non-null    float64
+ 7   against_fire       801 non-null    float64
+ 8   against_flying     801 non-null    float64
+ 9   against_ghost      801 non-null    float64
+ 10  against_grass      801 non-null    float64
+ 11  against_ground     801 non-null    float64
+ 12  against_ice        801 non-null    float64
+ 13  against_normal     801 non-null    float64
+ 14  against_poison     801 non-null    float64
+ 15  against_psychic    801 non-null    float64
+ 16  against_rock       801 non-null    float64
+ 17  against_steel      801 non-null    float64
+ 18  against_water      801 non-null    float64
+ 19  attack             801 non-null    int64  
+ 20  base_egg_steps     801 non-null    int64  
+ 21  base_happiness     801 non-null    int64  
+ 22  base_total         801 non-null    int64  
+ 23  capture_rate       801 non-null    object 
+ 24  classfication      801 non-null    object 
+ 25  defense            801 non-null    int64  
+ 26  experience_growth  801 non-null    int64  
+ 27  height_m           781 non-null    float64
+ 28  hp                 801 non-null    int64  
+ 29  japanese_name      801 non-null    object 
+ 30  name               801 non-null    object 
+ 31  percentage_male    703 non-null    float64
+ 32  pokedex_number     801 non-null    int64  
+ 33  sp_attack          801 non-null    int64  
+ 34  sp_defense         801 non-null    int64  
+ 35  speed              801 non-null    int64  
+ 36  type1              801 non-null    object 
+ 37  type2              417 non-null    object 
+ 38  weight_kg          781 non-null    float64
+ 39  generation         801 non-null    int64  
+ 40  is_legendary       801 non-null    int64  
+dtypes: float64(21), int64(13), object(7)
+memory usage: 256.7+ KB
+
+
+Data Description:
+       against_bug  against_dark  against_dragon  against_electric  against_fairy  against_fight  against_fire  against_flying  against_ghost  against_grass  against_ground  against_ice  against_normal  against_poison  against_psychic  against_rock  against_steel  against_water      attack  base_egg_steps  base_happiness  base_total     defense  experience_growth    height_m          hp  percentage_male  pokedex_number   sp_attack  sp_defense       speed   weight_kg  generation  is_legendary
+count   801.000000    801.000000      801.000000        801.000000     801.000000     801.000000    801.000000      801.000000     801.000000     801.000000      801.000000   801.000000      801.000000      801.000000       801.000000    801.000000     801.000000     801.000000  801.000000      801.000000      801.000000  801.000000  801.000000       8.010000e+02  781.000000  801.000000       703.000000      801.000000  801.000000  801.000000  801.000000  781.000000  801.000000    801.000000
+mean      0.996255      1.057116        0.968789          1.073970       1.068976       1.065543      1.135456        1.192884       0.985019       1.034020        1.098002     1.208177        0.887016        0.975343         1.005306      1.250312       0.983458       1.058365   77.857678     7191.011236       65.362047  428.377029   73.008739       1.054996e+06    1.163892   68.958801        55.155761      401.000000   71.305868   70.911361   66.334582   61.378105    3.690387      0.087391
+std       0.597248      0.438142        0.353058          0.654962       0.522167       0.717251      0.691853        0.604488       0.558256       0.788896        0.738818     0.735356        0.266106        0.549375         0.495183      0.697148       0.500117       0.606562   32.158820     6558.220422       19.598948  119.203577   30.769159       1.602558e+05    1.080326   26.576015        20.261623      231.373075   32.353826   27.942501   28.907662  109.354766    1.930420      0.282583
+min       0.250000      0.250000        0.000000          0.000000       0.250000       0.000000      0.250000        0.250000       0.000000       0.250000        0.000000     0.250000        0.000000        0.000000         0.000000      0.250000       0.250000       0.250000    5.000000     1280.000000        0.000000  180.000000    5.000000       6.000000e+05    0.100000    1.000000         0.000000        1.000000   10.000000   20.000000    5.000000    0.100000    1.000000      0.000000
+25%       0.500000      1.000000        1.000000          0.500000       1.000000       0.500000      0.500000        1.000000       1.000000       0.500000        1.000000     0.500000        1.000000        0.500000         1.000000      1.000000       0.500000       0.500000   55.000000     5120.000000       70.000000  320.000000   50.000000       1.000000e+06    0.600000   50.000000        50.000000      201.000000   45.000000   50.000000   45.000000    9.000000    2.000000      0.000000
+50%       1.000000      1.000000        1.000000          1.000000       1.000000       1.000000      1.000000        1.000000       1.000000       1.000000        1.000000     1.000000        1.000000        1.000000         1.000000      1.000000       1.000000       1.000000   75.000000     5120.000000       70.000000  435.000000   70.000000       1.000000e+06    1.000000   65.000000        50.000000      401.000000   65.000000   66.000000   65.000000   27.300000    4.000000      0.000000
+75%       1.000000      1.000000        1.000000          1.000000       1.000000       1.000000      2.000000        1.000000       1.000000       1.000000        1.000000     2.000000        1.000000        1.000000         1.000000      2.000000       1.000000       1.000000  100.000000     6400.000000       70.000000  505.000000   90.000000       1.059860e+06    1.500000   80.000000        50.000000      601.000000   91.000000   90.000000   85.000000   64.800000    5.000000      0.000000
+max       4.000000      4.000000        2.000000          4.000000       4.000000       4.000000      4.000000        4.000000       4.000000       4.000000        4.000000     4.000000        1.000000        4.000000         4.000000      4.000000       4.000000       4.000000  185.000000    30720.000000      140.000000  780.000000  230.000000       1.640000e+06   14.500000  255.000000       100.000000      801.000000  194.000000  230.000000  180.000000  999.900000    7.000000      1.000000

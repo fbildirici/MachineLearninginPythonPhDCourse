@@ -1,0 +1,5 @@
+Original data shape:
+(801, 41)
+
+Data shape after removing outliers:
+(524, 41)

@@ -1,0 +1,50 @@
+Head of the data after feature selection and scaling:
+                     abilities  against_bug  against_dark  against_dragon  against_electric  against_fairy  against_fight  against_fire  against_flying  against_ghost  against_grass  against_ground  against_ice  against_normal  against_poison  against_psychic  against_rock  against_steel  against_water    attack  base_egg_steps  base_happiness  base_total capture_rate   classfication   defense  experience_growth  height_m        hp     japanese_name        name  percentage_male  pokedex_number  sp_attack  sp_defense     speed  type1   type2  weight_kg  generation  is_legendary
+0  ['Overgrow', 'Chlorophyll']     0.006275     -0.130441        0.088457         -0.876889      -1.090325      -0.788980      1.250388        1.336041       0.026853      -0.994440       -0.132731     1.077461        0.424847        0.044909         2.009996     -0.359276       0.033097      -0.921115 -0.897909       -0.315986        0.236791   -0.926533           45    Seed Pokémon -0.780773           0.030371 -0.433525 -0.902083  Fushigidaneフシギダネ   Bulbasaur         1.582768       -1.729890  -0.195025   -0.211687 -0.738486  grass  poison  -0.497218   -1.394551      -0.30945
+1  ['Overgrow', 'Chlorophyll']     0.006275     -0.130441        0.088457         -0.876889      -1.090325      -0.788980      1.250388        1.336041       0.026853      -0.994440       -0.132731     1.077461        0.424847        0.044909         2.009996     -0.359276       0.033097      -0.921115 -0.493413       -0.315986        0.236791   -0.196233           45    Seed Pokémon -0.325488           0.030371 -0.152954 -0.337312   Fushigisouフシギソウ     Ivysaur         1.582768       -1.725565   0.268888    0.325465 -0.219268  grass  poison  -0.440809   -1.394551      -0.30945
+2  ['Overgrow', 'Chlorophyll']     0.006275     -0.130441        0.088457         -0.876889      -1.090325      -0.788980      1.250388        1.336041       0.026853      -0.994440       -0.132731     1.077461        0.424847        0.044909         2.009996     -0.359276       0.033097      -0.921115  0.688960       -0.315986        0.236791    1.650503           45    Seed Pokémon  1.625735           0.030371  0.782283  0.415717  Fushigibanaフシギバナ    Venusaur         1.582768       -1.721240   1.567846    1.757871  0.473022  grass  poison   0.363717   -1.394551      -0.30945
+3     ['Blaze', 'Solar Power']    -0.831422     -0.130441        0.088457         -0.113009      -1.090325      -0.091438     -0.919058       -0.319286       0.026853      -0.677344        1.221628    -0.963642        0.424847        0.044909        -0.010722      1.076036      -0.967295       1.553384 -0.804564       -0.315986        0.236791   -1.002081           45  Lizard Pokémon -0.975896           0.030371 -0.527049 -1.127992      Hitokageヒトカゲ  Charmander         1.582768       -1.716916  -0.349663   -0.748839 -0.046196   fire  poison  -0.482422   -1.394551      -0.30945
+4     ['Blaze', 'Solar Power']    -0.831422     -0.130441        0.088457         -0.113009      -1.090325      -0.091438     -0.919058       -0.319286       0.026853      -0.677344        1.221628    -0.963642        0.424847        0.044909        -0.010722      1.076036      -0.967295       1.553384 -0.431183       -0.315986        0.236791   -0.196233           45   Flame Pokémon -0.488090           0.030371 -0.059430 -0.412614       Lizardoリザード  Charmeleon         1.582768       -1.712591   0.268888   -0.211687  0.473022   fire  poison  -0.385324   -1.394551      -0.30945
+
+Missing values after filling:
+abilities            0
+against_bug          0
+against_dark         0
+against_dragon       0
+against_electric     0
+against_fairy        0
+against_fight        0
+against_fire         0
+against_flying       0
+against_ghost        0
+against_grass        0
+against_ground       0
+against_ice          0
+against_normal       0
+against_poison       0
+against_psychic      0
+against_rock         0
+against_steel        0
+against_water        0
+attack               0
+base_egg_steps       0
+base_happiness       0
+base_total           0
+capture_rate         0
+classfication        0
+defense              0
+experience_growth    0
+height_m             0
+hp                   0
+japanese_name        0
+name                 0
+percentage_male      0
+pokedex_number       0
+sp_attack            0
+sp_defense           0
+speed                0
+type1                0
+type2                0
+weight_kg            0
+generation           0
+is_legendary         0
