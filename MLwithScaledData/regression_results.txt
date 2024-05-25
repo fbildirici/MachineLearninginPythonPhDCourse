@@ -1,0 +1,5 @@
+Regression Mean Squared Error:
+0.8274469012893324
+
+Regression R^2 Score:
+0.2318628854606043

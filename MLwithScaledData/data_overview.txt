@@ -1,0 +1,50 @@
+Veri setinin ilk birkaç satırı:
+   against_bug  against_dark  against_dragon  against_electric  against_fairy  against_fight  against_fire  against_flying  against_ghost  against_grass  against_ground  against_ice  against_normal  against_poison  against_psychic  against_rock  against_steel  against_water    attack  base_egg_steps  base_happiness  base_total   defense  experience_growth  height_m        hp  percentage_male  pokedex_number  sp_attack  sp_defense     speed  weight_kg  generation  is_legendary
+0     0.006275     -0.130441        0.088457         -0.876889      -1.090325      -0.788980      1.250388        1.336041       0.026853      -0.994440       -0.132731     1.077461        0.424847        0.044909         2.009996     -0.359276       0.033097      -0.921115 -0.897909       -0.315986        0.236791   -0.926533 -0.780773           0.030371 -0.433525 -0.902083         1.582768       -1.729890  -0.195025   -0.211687 -0.738486  -0.497218   -1.394551      -0.30945
+1     0.006275     -0.130441        0.088457         -0.876889      -1.090325      -0.788980      1.250388        1.336041       0.026853      -0.994440       -0.132731     1.077461        0.424847        0.044909         2.009996     -0.359276       0.033097      -0.921115 -0.493413       -0.315986        0.236791   -0.196233 -0.325488           0.030371 -0.152954 -0.337312         1.582768       -1.725565   0.268888    0.325465 -0.219268  -0.440809   -1.394551      -0.30945
+2     0.006275     -0.130441        0.088457         -0.876889      -1.090325      -0.788980      1.250388        1.336041       0.026853      -0.994440       -0.132731     1.077461        0.424847        0.044909         2.009996     -0.359276       0.033097      -0.921115  0.688960       -0.315986        0.236791    1.650503  1.625735           0.030371  0.782283  0.415717         1.582768       -1.721240   1.567846    1.757871  0.473022   0.363717   -1.394551      -0.30945
+3    -0.831422     -0.130441        0.088457         -0.113009      -1.090325      -0.091438     -0.919058       -0.319286       0.026853      -0.677344        1.221628    -0.963642        0.424847        0.044909        -0.010722      1.076036      -0.967295       1.553384 -0.804564       -0.315986        0.236791   -1.002081 -0.975896           0.030371 -0.527049 -1.127992         1.582768       -1.716916  -0.349663   -0.748839 -0.046196  -0.482422   -1.394551      -0.30945
+4    -0.831422     -0.130441        0.088457         -0.113009      -1.090325      -0.091438     -0.919058       -0.319286       0.026853      -0.677344        1.221628    -0.963642        0.424847        0.044909        -0.010722      1.076036      -0.967295       1.553384 -0.431183       -0.315986        0.236791   -0.196233 -0.488090           0.030371 -0.059430 -0.412614         1.582768       -1.712591   0.268888   -0.211687  0.473022  -0.385324   -1.394551      -0.30945
+
+Veri Seti Bilgileri:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1301 entries, 0 to 1300
+Data columns (total 34 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   against_bug        1301 non-null   float64
+ 1   against_dark       1301 non-null   float64
+ 2   against_dragon     1301 non-null   float64
+ 3   against_electric   1301 non-null   float64
+ 4   against_fairy      1301 non-null   float64
+ 5   against_fight      1301 non-null   float64
+ 6   against_fire       1301 non-null   float64
+ 7   against_flying     1301 non-null   float64
+ 8   against_ghost      1301 non-null   float64
+ 9   against_grass      1301 non-null   float64
+ 10  against_ground     1301 non-null   float64
+ 11  against_ice        1301 non-null   float64
+ 12  against_normal     1301 non-null   float64
+ 13  against_poison     1301 non-null   float64
+ 14  against_psychic    1301 non-null   float64
+ 15  against_rock       1301 non-null   float64
+ 16  against_steel      1301 non-null   float64
+ 17  against_water      1301 non-null   float64
+ 18  attack             1301 non-null   float64
+ 19  base_egg_steps     1301 non-null   float64
+ 20  base_happiness     1301 non-null   float64
+ 21  base_total         1301 non-null   float64
+ 22  defense            1301 non-null   float64
+ 23  experience_growth  1301 non-null   float64
+ 24  height_m           1301 non-null   float64
+ 25  hp                 1301 non-null   float64
+ 26  percentage_male    1301 non-null   float64
+ 27  pokedex_number     1301 non-null   float64
+ 28  sp_attack          1301 non-null   float64
+ 29  sp_defense         1301 non-null   float64
+ 30  speed              1301 non-null   float64
+ 31  weight_kg          1301 non-null   float64
+ 32  generation         1301 non-null   float64
+ 33  is_legendary       1301 non-null   float64
+dtypes: float64(34)
+memory usage: 345.7 KB

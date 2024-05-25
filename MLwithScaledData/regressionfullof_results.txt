@@ -1,0 +1,8 @@
+Regression Mean Squared Error (MSE):
+0.8269268077098578
+
+Regression Mean Absolute Error (MAE):
+0.7004142621525314
+
+Regression R^2 Score:
+0.2323456997424702
