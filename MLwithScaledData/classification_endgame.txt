@@ -1,0 +1,5 @@
+                 Model  Accuracy  Precision    Recall  F1 Score  AUC Score
+0        Decision Tree  0.877238   0.889223  0.877238  0.881752   0.847236
+1  Logistic Regression  0.902813   0.894975  0.902813  0.897705   0.909320
+2        Random Forest  0.913043   0.904793  0.913043  0.906202   0.982773
+3                  SVM  0.946292   0.945264  0.946292  0.945627   0.984966

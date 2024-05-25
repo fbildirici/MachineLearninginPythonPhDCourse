@@ -63,8 +63,8 @@ for model_name, model in models.items():
         'AUC Score': [auc_score]
     })
 
-    # Concat new metrics if not empty
-    if not new_metrics.empty and not new_metrics.isna().all().all():
+    # Concat new metrics if not empty or all-NA
+    if not new_metrics.empty and not new_metrics.isna().all(axis=None):
         evaluation_metrics = pd.concat([evaluation_metrics, new_metrics], ignore_index=True)
 
     # Confusion Matrix Görselleştirme

@@ -1,0 +1,4 @@
+                     Model       MSE       MAE  R^2 Score
+0        Linear Regression  0.827447  0.700618   0.231863
+1         Ridge Regression  0.827390  0.700643   0.231916
+2  Random Forest Regressor  0.716720  0.638047   0.334653
